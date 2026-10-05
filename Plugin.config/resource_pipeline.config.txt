@@ -1,10 +1,12 @@
 // New Types
 < s32:d u32:g s16:C u16:H s8:c u8:h f32:f f64:F string:s wstring:S u64:G s64:D bool:c enum:s >
 
-[ xProperties : 9 ]
+[ xProperties : 11 ]
 { Name:s                            Value:?                   }
 //--------------------------------  -------------------------
   "PipelinePlugin/TypeName"                  ;string "SharedComponentTemplate"
+  "PipelinePlugin/Group"                     ;string "Game"
+  "PipelinePlugin/Description"               ;string "The values of a shared component saved as a resource, to give to entities."
   "PipelinePlugin/FileExtension"             ;wstring ""
   "PipelinePlugin/TypeGUID/Value"            ;u64    #F5D56ECDFE2AD7E5
   "PipelinePlugin/IconPaths[]"                      ;s64    1
